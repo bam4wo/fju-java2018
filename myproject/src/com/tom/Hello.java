@@ -4,7 +4,16 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello world");
+		Person p = new Person(68.5f, 1.7f);
+		//p.weight = 65.5f;
+		//p.height = 1.7f;
+		System.out.println(p.bmi());
+		p.hello();
+		//Person hank = new Person();
+		//Person jack = null;
+		//jack.hello();
+		
+		/*System.out.println("Hello world");
 		int age = 18 ;
 		int schoolYear = 107;
 		int birthday = 727;
@@ -18,7 +27,8 @@ public class Hello {
 		System.out.println(loveNumber);
 		System.out.println(weight);
 		System.out.println(height);
-		System.out.println(name);
+		System.out.println(name);*/
+		
 		
 		
 				
