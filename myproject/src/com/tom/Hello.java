@@ -4,10 +4,18 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String name = "Hank";
-		int english = 70;
-	    int math = 90;
-	    System.out.println(name+"\t"+english+"\t"+math+"\t"+(english+math)/2);
+		Student stu = new Student("Hank",70,90);
+		stu.print();
+		System.out.println(3 > 5);
+		System.out.println(3 == 5);
+		String s1 = new String("abc");
+		String s2 = new String("abc");
+		System.out.println(s1 == s2);
+		
+		/*stu.name = "Hank";
+		stu.english = 70;
+		stu.math = 90;*/
+		
 		
 		Person p = new Person(68.5f, 1.7f);
 		//p.weight = 65.5f;
