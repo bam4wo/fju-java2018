@@ -1,9 +1,16 @@
 package com.tom;
 
+import java.util.Scanner;
+
 public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("You name:");
+		String name = scanner.nextLine();
+		System.out.println(name);
+		
 		Student stu = new Student("Hank",70,90);
 		stu.print();
 		System.out.println(3 > 5);
