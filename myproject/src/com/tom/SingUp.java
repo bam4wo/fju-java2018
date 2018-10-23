@@ -10,17 +10,9 @@ public class SingUp {
 	      String line = scanner.nextLine();
 	      //boolean adult = line.equals("y") || line.equals("Y");
 	      boolean adult = line.equalsIgnoreCase("y");
-	      System.out.println(adult);
-	      if(adult){
-	    	  System.out.print("Your age?");
-	    	  int age = scanner.nextInt();
-	    	  scanner.nextLine();
-	    	  System.out.print("Your name?");
-	    	  String name = scanner.nextLine();
-	    	  System.out.print("Your nickName?");
-	    	  String nickName = scanner.nextLine();
-	    			  
-	    	  
+	      Member member = new Member(adult);
+	      if(member.adult){
+	    	  member.starInput();
 	      }else{
 	    	  System.out.print("bye");
 	    	  
