@@ -1,15 +1,47 @@
 package com.tom;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scanner = new Scanner(System.in);
+		Random random = new Random();
+		int secret = random.nextInt((100)+1);
+		System.out.println(secret);
+		
+		/*int b = 1;
+		while(b>0){
+			System.out.println("1-100");
+			b = b-1;
+		}*/
+		
+		
+		
+		/*int n = (int)(3/5.0);
+		System.out.println(n);
+		int v = 5/3;
+		int m = 5%3;
+		System.out.println(v);
+		System.out.println(m);
+		int a = 5;
+		float age = 7.10835f;
+		String nick = "Tom";
+		System.out.printf("Hi, %s, Your age: %.2f, Your love number: %d\n", nick , age, a);*/
+		
+		double c = 24.0;
+		System.out.println();
+		
+	    Scanner scanner = new Scanner(System.in);
+	    System.out.println("C?");
+	    double cold = scanner.nextDouble();
+	    System.out.println(cold*(9.0/5)+32);
+		
+		/*Scanner scanner = new Scanner(System.in);
 		System.out.println("You name:");
 		String name = scanner.nextLine();
-		System.out.println(name);
+		System.out.println(name);*/
 		
 		Student stu = new Student("Hank",70,90);
 		stu.print();
