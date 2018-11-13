@@ -7,9 +7,13 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Random random = new Random();
+		
+		for(int i = 1; i<5 ; i=i+1);
+	    
+		
+		/*Random random = new Random();
 		int secret = random.nextInt((100)+1);
-		System.out.println(secret);
+		System.out.println(secret);*/
 		
 		/*int b = 1;
 		while(b>0){
